@@ -3,7 +3,8 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  base:"/docs-demo/",
+  head: [["link", { rel: "icon", href: "/docs-demo/logo.png" }]],
   title: "朱依静的项目",
   description: "A VitePress Site",
   themeConfig: {
