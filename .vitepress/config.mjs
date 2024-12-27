@@ -58,8 +58,6 @@ export default defineConfig({
       "/front-end/Project": set_sidebar("/front-end/Project"),
       "/front-end/hot100": set_sidebar("/front-end/hot100"),
       "/front-end/mianjing": set_sidebar("/front-end/mianjing"),
-      "/两边栏演示": set_sidebar("/两边栏演示"),
-
     },
     // sidebar: false, // 关闭侧边栏
     // aside: "left", // 设置右侧侧边栏在左侧显示
@@ -111,6 +109,4 @@ export default defineConfig({
       },
     },
   },
-
-  
 });
